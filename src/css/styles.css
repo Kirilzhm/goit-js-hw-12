@@ -16,3 +16,147 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+
+p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  font-family: "Montserrat", sans-serif;
+}
+
+.search-form {
+  margin-top: 36px;
+}
+
+.input-text {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 272px;
+  height: 40px;
+  margin-left: 534px;
+  padding-left: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #000;
+}
+
+.input-text:hover {
+  border: 1px solid #000;
+}
+
+.button-search {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 91px;
+  height: 40px;
+  background: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: none;
+}
+
+.button-search:hover {
+  background: #6c8cff;
+  cursor: pointer;
+}
+
+.load-more {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 32px;
+  border-radius: 8px;
+    padding: 8px 16px;
+    width: 125px;
+    height: 40px;
+  background: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: none;
+}
+
+.load-more:hover {
+  background: #6c8cff;
+  cursor: pointer;
+}
+
+.gallery {
+  margin-top: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+.image-card {
+  width: 360px;
+  height: 200px;
+  border: 1px solid #808080;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.image-card img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  width: 360px;
+  height: 48px;
+  gap: 27px;
+}
+
+.text-span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33333;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #FFF;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.is-hidden {
+  display: none;
+}
